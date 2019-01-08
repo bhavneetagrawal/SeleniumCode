@@ -1,0 +1,39 @@
+
+
+---SELENIUM ARCHITECTURE-----
+
+
+
+1. selenium standalone server download
+2. Keep standalone server and chrome driver.exe in same folder
+3. Invoke cmd
+4. Reach to that folder path by cd..
+5. Type java -jar standalone server.1.1.1.jar
+6. Note the localhost:4444
+7. Type it in chrome browser and create session
+8. check json wire protocol command, API and hands on the POSTMAN
+
+----Postman---
+/session/:sessionId----GET
+http://localhost:4444/wd/hub/session/76740564bef473a147fa61c63bfddb2e
+ 
+/session/:sessionId/url---POST
+http://localhost:4444/wd/hub/session/76740564bef473a147fa61c63bfddb2e/url
+
+Body->Raw->JSON(application/json)
+Pass the url as
+{
+"url":"http://www.google.com"
+}
+
+
+
+------------Automation Framework Architecture:---------------
+ 
+• POM (Page Object Model) Design Page Factory API of WebDriver 
+• Maven (Build Automation Tool) 
+• Test Libraries for different UI Pages 
+• Test Utilities for different generic functions 
+• Report - Dashboard (Pass/Fail Test) by using Extent Report 
+• API Jenkins - Continuous Integration Tool 
+• GITHub Repo (Code Versioning Tool)

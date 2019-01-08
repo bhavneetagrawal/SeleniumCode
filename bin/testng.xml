@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "TestNg Automated suite">
+
+<test name = "TestNG Features">
+
+<classes>
+		<class name = "com.test.expectedExceptionTest"/>
+		<class name = "com.test.GoogleTitleValidationTest"/>
+		<class name = "com.test.InvocationCountTest"/>
+		<class name = "com.test.TestNGbasics"/>
+		<class name = "com.test.TestNGfeatures"/>
+</classes>
+
+</test>
+
+</suite>
+
+
+
+

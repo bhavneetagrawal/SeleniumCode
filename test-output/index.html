@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestNg_Automated_suite">
+              <span class="suite-name border-passed">TestNg Automated suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestNg_Automated_suite">
+                    <span>C:\Users\Dell\eclipse-workspace\SeleniumBasic\src\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestNg_Automated_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestNg_Automated_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestNg_Automated_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestNg_Automated_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestNg_Automated_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestNg_Automated_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestNg_Automated_suite" class="hide-methods passed suite-TestNg_Automated_suite"> (hide)</a> <!-- hide-methods passed suite-TestNg_Automated_suite -->
+                      <a href="#" panel-name="suite-TestNg_Automated_suite" class="show-methods passed suite-TestNg_Automated_suite"> (show)</a> <!-- show-methods passed suite-TestNg_Automated_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestNg_Automated_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.GoogleTitleValidationTest" hash-for-method="googleTitleTest">googleTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.TestNGfeatures" hash-for-method="loginPageTest">loginPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.InvocationCountTest" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.InvocationCountTest" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.InvocationCountTest" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.InvocationCountTest" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.InvocationCountTest" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.InvocationCountTest" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.InvocationCountTest" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.InvocationCountTest" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.InvocationCountTest" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.InvocationCountTest" hash-for-method="sum">sum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNg_Automated_suite" title="com.test.expectedExceptionTest" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestNg_Automated_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestNg_Automated_suite" class="panel TestNg_Automated_suite">
+          <div class="suite-TestNg_Automated_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.TestNGfeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTest">
+                  </a> <!-- loginPageTest -->
+                  <span class="method-name">loginPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNg_Automated_suite-class-passed -->
+          <div class="suite-TestNg_Automated_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.InvocationCountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sum">
+                  </a> <!-- sum -->
+                  <span class="method-name">sum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNg_Automated_suite-class-passed -->
+          <div class="suite-TestNg_Automated_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.GoogleTitleValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleTitleTest">
+                  </a> <!-- googleTitleTest -->
+                  <span class="method-name">googleTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNg_Automated_suite-class-passed -->
+          <div class="suite-TestNg_Automated_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.expectedExceptionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNg_Automated_suite-class-passed -->
+        </div> <!-- panel TestNg_Automated_suite -->
+        <div panel-name="test-xml-TestNg_Automated_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dell\eclipse-workspace\SeleniumBasic\src\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestNg Automated suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestNG Features&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.expectedExceptionTest&quot;/&gt;
+      &lt;class name=&quot;com.test.GoogleTitleValidationTest&quot;/&gt;
+      &lt;class name=&quot;com.test.InvocationCountTest&quot;/&gt;
+      &lt;class name=&quot;com.test.TestNGbasics&quot;/&gt;
+      &lt;class name=&quot;com.test.TestNGfeatures&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestNG Features --&gt;
+&lt;/suite&gt; &lt;!-- TestNg Automated suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestNg_Automated_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestNg Automated suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestNG Features (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestNg_Automated_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestNg Automated suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestNg_Automated_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestNg Automated suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestNg_Automated_suite');
+function tableData_TestNg_Automated_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'googleTitleTest')
+data.setCell(0, 2, 'com.test.GoogleTitleValidationTest')
+data.setCell(0, 3, 20);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginPageTest')
+data.setCell(1, 2, 'com.test.TestNGfeatures')
+data.setCell(1, 3, 19);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'sum')
+data.setCell(2, 2, 'com.test.InvocationCountTest')
+data.setCell(2, 3, 15);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test')
+data.setCell(3, 2, 'com.test.expectedExceptionTest')
+data.setCell(3, 3, 15);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'sum')
+data.setCell(4, 2, 'com.test.InvocationCountTest')
+data.setCell(4, 3, 7);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'sum')
+data.setCell(5, 2, 'com.test.InvocationCountTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'sum')
+data.setCell(6, 2, 'com.test.InvocationCountTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sum')
+data.setCell(7, 2, 'com.test.InvocationCountTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sum')
+data.setCell(8, 2, 'com.test.InvocationCountTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'sum')
+data.setCell(9, 2, 'com.test.InvocationCountTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'sum')
+data.setCell(10, 2, 'com.test.InvocationCountTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'sum')
+data.setCell(11, 2, 'com.test.InvocationCountTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sum')
+data.setCell(12, 2, 'com.test.InvocationCountTest')
+data.setCell(12, 3, 0);
+window.suiteTableData['TestNg_Automated_suite']= { tableData: data, tableDiv: 'times-div-TestNg_Automated_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 76 ms</span>
+              <div id="times-div-TestNg_Automated_suite">
+              </div> <!-- times-div-TestNg_Automated_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestNg_Automated_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestNg Automated suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestNg_Automated_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestNg_Automated_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.expectedExceptionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.GoogleTitleValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">googleTitleTest</span>
+                <span class="method-start">12536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12558 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.InvocationCountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">13505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">13505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">13505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">13505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">13520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">13527 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">13527 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">13527 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">13527 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sum</span>
+                <span class="method-start">13542 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestNGfeatures</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPageTest</span>
+                <span class="method-start">13542 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
